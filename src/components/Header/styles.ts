@@ -40,11 +40,3 @@ export const Container = styled.div<ContainerProps>`
     }
   }
 `;
-
-export const StyledLink = styled(Link)<StyledLinkProps>`
-  ${(props) =>
-    props.currentpage &&
-    css`
-      border-bottom: 3px solid red;
-    `}
-`;
